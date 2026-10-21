@@ -1,0 +1,13 @@
+*.exe
+*.bin
+*.cue
+*.iso
+*.str
+*.bs
+*.zip
+*.partial
+__pycache__/
+verification/
+private/
+reports/
+dist/

@@ -1,0 +1,64 @@
+{
+  "result": "PASS",
+  "date_kst": "2026-10-21",
+  "public_version": "1.0.1",
+  "game_build": "R152",
+  "source_sha256": "81a130ca6daacf7bf60f2808bb20262e274477ecbfe4ffdec739f00017db58f8",
+  "target_sha256": "ff7fd8379be4f342d18008fedf19ca13a2ca3dbcd1cd510284e387341f0cfb5c",
+  "patch_sha256": "23b4afbd47cb973fc9e39e06873bca2975365c641cd014d7501da645bb9cb60f",
+  "patcher_sha256": "b15a16a3cc04f7eeda496c9b0e69dff842c709c8b78c6620ea1035fc0df86620",
+  "output_size": 712192656,
+  "independent_applications": [
+    {
+      "implementation": "windows-csharp",
+      "size": 712192656,
+      "sha256": "ff7fd8379be4f342d18008fedf19ca13a2ca3dbcd1cd510284e387341f0cfb5c"
+    },
+    {
+      "implementation": "independent-python",
+      "size": 712192656,
+      "sha256": "ff7fd8379be4f342d18008fedf19ca13a2ca3dbcd1cd510284e387341f0cfb5c"
+    }
+  ],
+  "safety_checks": [
+    {
+      "name": "final-windows",
+      "exit_code": 0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "name": "reject-wrong-size",
+      "exit_code": 1,
+      "expected": 1,
+      "pass": true
+    },
+    {
+      "name": "reject-wrong-hash",
+      "exit_code": 1,
+      "expected": 1,
+      "pass": true
+    },
+    {
+      "name": "protect-existing-output",
+      "exit_code": 1,
+      "expected": 1,
+      "pass": true
+    },
+    {
+      "name": "malformed-and-cancellation",
+      "exit_code": 0,
+      "expected": 0,
+      "pass": true
+    }
+  ],
+  "additional_safety_checks": [
+    "truncated_recipe_rejected",
+    "overlapping_writes_rejected",
+    "mid_apply_cancellation_removes_partial_output"
+  ],
+  "public_builder_reproduces_identical_patch": true,
+  "source_preserved": true,
+  "emulator_or_save_files_changed": false,
+  "runtime_scope": "Packaging update verified by exact complete BIN equality; no new gameplay changes or additional emulator playthrough claimed."
+}

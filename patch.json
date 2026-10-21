@@ -1,0 +1,14 @@
+{
+  "version": "1.0.1",
+  "build": "R152",
+  "title": "제절초 소생편 PS1 한글패치",
+  "game_serial": "SLPS-01645",
+  "source_size": 712192656,
+  "target_size": 712192656,
+  "source_sha256": "81a130ca6daacf7bf60f2808bb20262e274477ecbfe4ffdec739f00017db58f8",
+  "target_sha256": "ff7fd8379be4f342d18008fedf19ca13a2ca3dbcd1cd510284e387341f0cfb5c",
+  "patch_file": "Otogirisou_KO_R152.otopatch",
+  "patch_size": 2541358,
+  "patch_sha256": "23b4afbd47cb973fc9e39e06873bca2975365c641cd014d7501da645bb9cb60f",
+  "output_stem": "Otogirisou_KO_R152"
+}

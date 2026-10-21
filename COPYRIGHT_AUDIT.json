@@ -1,0 +1,48 @@
+{
+  "result": "PASS",
+  "checks": {
+    "source_preserved": true,
+    "both_outputs_equal_R152": true,
+    "no_same_position_original_literals": true,
+    "no_original_code_16byte_literals": true,
+    "no_CDIMG_32byte_literals": true,
+    "no_completed_media_literals": true,
+    "all_275_frames_source_relative": true
+  },
+  "counts": {
+    "literal_bytes": 571021,
+    "same_position_original_literal_bytes": 0,
+    "original_executable_16byte_matches_in_literals": 0,
+    "original_CDIMG_32byte_window_matches_in_literals": 0,
+    "literal_bytes_in_complete_BS_image_streams": 0,
+    "literal_bytes_in_video_BS_streams": 0,
+    "source_copy_bytes": 574,
+    "fill_bytes": 90023,
+    "source_relative_MDEC_streams": 281,
+    "source_relative_video_frames": 275,
+    "source_relative_BS_images": 6
+  },
+  "literal_bytes_by_source_file": {
+    "OTOMV2/MOV100.STR": 2862,
+    "OTOMV/MOV026.STR": 1677,
+    "OTOMV/MOV027.STR": 2308,
+    "CDIMG.BIN": 557444,
+    "SLPS_016.45": 6730
+  },
+  "outputs": [
+    {
+      "implementation": "windows-csharp",
+      "size": 712192656,
+      "sha256": "ff7fd8379be4f342d18008fedf19ca13a2ca3dbcd1cd510284e387341f0cfb5c"
+    },
+    {
+      "implementation": "independent-python",
+      "size": 712192656,
+      "sha256": "ff7fd8379be4f342d18008fedf19ca13a2ca3dbcd1cd510284e387341f0cfb5c"
+    }
+  ],
+  "patch_sha256": "23b4afbd47cb973fc9e39e06873bca2975365c641cd014d7501da645bb9cb60f",
+  "original_code_match_examples": [],
+  "original_CDIMG_match_offsets": [],
+  "scope": "Decoded literal operands, source references, source-relative quantized-coefficient edits. Small byte coincidences and derivative-work rights are not a zero-copyright guarantee."
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "name": "controller",
+    "offset": 4257792,
+    "allocation": 18432
+  },
+  {
+    "name": "title",
+    "offset": 4276224,
+    "allocation": 20480
+  },
+  {
+    "name": "books",
+    "offset": 4202496,
+    "allocation": 18432
+  },
+  {
+    "name": "ending",
+    "offset": 3557376,
+    "allocation": 6144
+  },
+  {
+    "name": "complete",
+    "offset": 3563520,
+    "allocation": 6144
+  },
+  {
+    "name": "plate",
+    "offset": 3999744,
+    "allocation": 18432
+  }
+]
